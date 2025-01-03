@@ -10,3 +10,5 @@ print("Mês:",mes)
 
 dia = hoje.strftime("%d")
 print("Dia:",dia)
+
+print("Dia\tMês\tAno\n{}\t{}\t{}".format(dia,mes,ano))
